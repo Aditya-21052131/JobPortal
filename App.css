@@ -1,0 +1,39 @@
+/* src/App.css */
+.job-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .job-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: 20px auto;
+  }
+  
+  input {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
